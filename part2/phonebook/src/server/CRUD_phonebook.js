@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const base_URL = "http://localhost:3001/persons";
+const base_URL = "https://fullstack-open-gold.vercel.app/api/persons";
 
 export const getAll = async () => {
   const request = await axios.get(base_URL);
